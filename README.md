@@ -23,8 +23,10 @@ diagnosed, which null distribution should calibrate the residual test?**
 
 For a discrete count, the randomized residual is
 
-$$U_i = F_{\widehat\theta}(X_i^-) + V_i p_{\widehat\theta}(X_i),
-\qquad V_i \sim \mathrm{Uniform}(0,1).$$
+$$
+U_i = F_{\widehat\theta}(X_i^-) + V_i p_{\widehat\theta}(X_i),
+\qquad V_i \sim \mathrm{Uniform}(0,1).
+$$
 
 Known margins and independent observations give uniform residuals. Reusing
 the observations to fit the margins changes their joint reference law.
