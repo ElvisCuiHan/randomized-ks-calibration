@@ -1,0 +1,23 @@
+{
+  "gene": "CD74",
+  "dispersion_model": "shared",
+  "cells": 24134,
+  "detection_rate": 0.6646639595591282,
+  "fitted_size": 0.31818144515339114,
+  "fitted_size_min": 0.31818144515339114,
+  "fitted_size_max": 0.31818144515339114,
+  "mean_fitted_log_score": -2.3121794994615077,
+  "observed_stratified_ks": 12.85486528671951,
+  "fixed_parameter_cutoff_95": 1.7213550845694354,
+  "refitted_cutoff_95": 2.260415917295522,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0001,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 0,
+  "refitted_tail_mc_lower": 0.0,
+  "refitted_tail_mc_upper": 0.0003688567934951887,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20262840,
+  "elapsed_seconds": 241.7374108749209
+}

@@ -1,0 +1,89 @@
+fitted_nb_scale
+n,null_mc,power_mc,boot,known_margin_with_95mc_ci,naive_ks_with_95mc_ci,fixed_parameter_bootstrap_with_95mc_ci,refitted_bootstrap_with_95mc_ci,zero_inflated_power_with_95mc_ci,elapsed_seconds
+250,400,200,199,0.052 [0.035; 0.079],0.000 [0.000; 0.010],0.000 [0.000; 0.010],0.062 [0.043; 0.091],0.955 [0.917; 0.976],13.502
+1000,250,125,149,0.056 [0.034; 0.092],0.000 [0.000; 0.015],0.000 [0.000; 0.015],0.040 [0.022; 0.072],1.000 [0.970; 1.000],12.853
+10000,300,100,99,0.047 [0.028; 0.077],0.000 [0.000; 0.013],0.003 [0.001; 0.019],0.040 [0.023; 0.069],1.000 [0.963; 1.000],68.419
+
+large_scale_feasibility
+n,genes,observed_fit_residual_seconds,one_refit_seconds,projected_199_serial_minutes,streaming_working_arrays_mb
+1000,10,0.0017,0.0016,0.005,0.02
+10000,10,0.0127,0.0127,0.042,0.23
+100000,10,0.1305,0.1297,0.432,2.29
+1000000,10,1.3743,1.3582,4.528,22.89
+
+settings,n=120,mc=1000,boot=499,alpha=0.05,seed=20260609
+
+fitted_nb_margin
+model,brownian_cutoff_with_95mc_ci,refit_bootstrap_with_95mc_ci
+Known NB margin,0.040 [0.030; 0.054],--
+Fitted NB margin,0.000 [0.000; 0.004],0.051 [0.039; 0.066]
+
+copula_blind_spot
+scenario,gene1_marginal_ks_with_95mc_ci,gene2_marginal_ks_with_95mc_ci,residual_correlation_with_95mc_ci
+same copula (rho=0.65),0.043 [0.032; 0.057],0.052 [0.040; 0.068],0.058 [0.045; 0.074]
+moderate wrong copula (rho=0.50),0.054 [0.042; 0.070],0.050 [0.038; 0.065],0.663 [0.633; 0.692]
+rho=0 independence copula,0.039 [0.029; 0.053],0.049 [0.037; 0.064],1.000 [0.996; 1.000]
+
+conditional_calibration_source
+Run scripts/ks_conditional_calibration.R; see results/conditional_calibration/summary.csv
+
+real_count_application
+dataset,n,ks_stat,uniform_pvalue,max_pairwise_spray_ks
+InsectSprays,72,0.082,0.718,0.333
+
+scgtm_example
+source,commit,source_dir,data,cells,genes,marginals,iter,seed,summary_csv,aggregate_csv
+ElvisCuiHan/scGTM,f26946dbb1531e273bed54f6eb6d51c6a2a5a408,SCGTM_SOURCE_DIR,scGTM/Demo/simu_nb_scGTM_input.csv,500,10,Poisson|NB,60,20260609,results/scgtm_example/scgtm_residual_summary.csv,results/scgtm_example/scgtm_aggregate_summary.csv
+
+scgtm_reproduction_command
+SCGTM_SOURCE_DIR=/path/to/scGTM python3 scripts/ks_scgtm_example.py --genes Gene1,Gene2,Gene3,Gene4,Gene5,Gene6,Gene7,Gene8,Gene9,Gene10 --marginals Poisson,NB --iter 60 --seed 20260609
+
+scgtm_aggregate_summary
+genes,median_poisson_ks_D,median_nb_ks_D,genes_with_lower_nb_ks_D,median_ks_D_drop,median_quartile_ks_drop,median_nll_drop,summary_csv
+10,0.278,0.035,10,0.230,0.112,1176.503,results/scgtm_example/scgtm_aggregate_summary.csv
+
+gene,marginal,cells,mean_count,zero_fraction,nll,mu,k1,k2,t0,phi,transform,t0_ci,ks_D,ks_p_naive,max_pseudotime_quartile_ks
+Gene1,Poisson,500,5.518,0.126,1630.906,2.297,6.516,5.115,0.479,,0,[0.422;0.536],0.200,5.38e-18,0.184
+Gene1,NB,500,5.518,0.126,1309.346,2.317,5.782,5.794,0.500,1.935,0,[0.459;0.541],0.029,0.789,0.136
+Gene2,Poisson,500,21.810,0.030,3393.550,3.937,6.352,4.865,0.456,,0,[0.418;0.495],0.276,3.56e-34,0.248
+Gene2,NB,500,21.810,0.030,1805.843,3.969,5.631,5.655,0.476,2.263,0,[0.457;0.496],0.037,0.48,0.120
+Gene3,Poisson,500,22.504,0.026,3223.596,3.785,3.735,3.626,0.479,,0,[0.425;0.532],0.290,1e-37,0.240
+Gene3,NB,500,22.504,0.026,1886.744,3.888,3.651,4.841,0.510,2.134,0,[0.485;0.535],0.045,0.254,0.192
+Gene4,Poisson,500,23.078,0.034,3417.565,3.914,6.161,3.145,0.552,,0,[0.508;0.595],0.280,3.53e-35,0.320
+Gene4,NB,500,23.078,0.034,1822.986,3.944,6.065,3.118,0.567,2.548,0,[0.546;0.587],0.035,0.571,0.184
+Gene5,Poisson,500,44.868,0.016,6468.389,4.635,4.995,3.554,0.425,,0,[0.384;0.466],0.357,1.28e-57,0.352
+Gene5,NB,500,44.868,0.016,2162.446,4.773,4.593,4.802,0.454,1.980,0,[0.433;0.474],0.025,0.905,0.128
+Gene6,Poisson,500,17.580,0.076,2644.869,3.855,6.697,8.205,0.562,,0,[0.530;0.595],0.282,9.32e-36,0.280
+Gene6,NB,500,17.580,0.076,1628.715,3.839,6.239,8.094,0.574,2.492,0,[0.557;0.591],0.061,0.0488,0.168
+Gene7,Poisson,500,4.400,0.136,1419.600,1.993,5.023,5.150,0.412,,0,[0.341;0.483],0.169,6.97e-13,0.192
+Gene7,NB,500,4.400,0.136,1217.056,2.004,5.538,5.010,0.399,2.179,0,[0.351;0.448],0.033,0.621,0.168
+Gene8,Poisson,500,7.304,0.110,1710.492,2.691,5.054,7.095,0.431,,0,[0.382;0.481],0.199,6.46e-18,0.256
+Gene8,NB,500,7.304,0.110,1362.291,2.715,5.668,6.707,0.414,2.503,0,[0.386;0.442],0.019,0.993,0.176
+Gene9,Poisson,500,24.050,0.026,4021.941,4.060,5.068,6.238,0.568,,0,[0.531;0.606],0.287,7.68e-37,0.360
+Gene9,NB,500,24.050,0.026,1863.692,4.133,4.814,6.756,0.562,2.160,0,[0.542;0.581],0.036,0.523,0.168
+Gene10,Poisson,500,18.462,0.012,2795.027,3.565,2.790,5.282,0.643,,0,[0.585;0.701],0.244,1.03e-26,0.312
+Gene10,NB,500,18.462,0.012,1791.341,3.636,2.958,4.658,0.616,3.052,0,[0.593;0.639],0.041,0.373,0.200
+
+scdesign3_example
+dataset,cells,genes,cell_types,pseudotime_min,pseudotime_max
+example_sce,1289,10,5,0.000,1.000
+example_count,2087,100,NA,0.000,1.000
+
+dataset,fit,median_gene_ks_D,max_gene_ks_D,min_naive_uniform_p,max_abs_pairwise_residual_corr,max_pseudotime_quartile_ks
+example_sce,moment_nb,0.188,0.340,9.74e-130,0.917,0.209
+example_sce,scdesign3_conditional_nb,0.059,0.175,8.21e-35,0.861,0.181
+example_count,moment_nb,0.059,0.282,5.02e-145,0.801,0.188
+example_count,scdesign3_conditional_nb,0.023,0.181,4e-60,0.285,0.045
+
+scdesign3_pancreas_refitted_bootstrap
+gene,cells,observed_ks_D,naive_uniform_p,refitted_bootstrap_p,holm_refitted_p,bootstrap_q95,bootstrap_replicates,failed_fits,elapsed_seconds
+Pyy,2087,0.0300,0.04722,0.0025,0.016,0.0225,1999,0,201.982
+Iapp,2087,0.0332,0.02026,0.002,0.016,0.0239,1999,0,215.999
+Chgb,2087,0.0206,0.3395,0.1225,0.3675,0.0235,1999,0,228.303
+Rbp4,2087,0.0439,0.0006411,0.0005,0.005,0.0232,1999,0,198.365
+Spp1,2087,0.0241,0.1763,0.0715,0.3075,0.0250,1999,0,229.361
+Chga,2087,0.0326,0.02367,0.002,0.016,0.0229,1999,0,236.595
+Cck,2087,0.0167,0.6068,0.2885,0.3675,0.0217,1999,0,245.283
+Ins1,2087,0.0224,0.2479,0.152,0.3675,0.0263,1999,0,246.508
+Nnat,2087,0.0432,0.000816,0.0005,0.005,0.0233,1999,0,200.875
+Ins2,2087,0.0263,0.1105,0.0615,0.3075,0.0272,1999,0,191.045

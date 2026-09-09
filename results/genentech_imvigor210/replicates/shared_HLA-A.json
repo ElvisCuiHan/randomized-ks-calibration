@@ -1,0 +1,23 @@
+{
+  "gene": "HLA-A",
+  "dispersion_model": "shared",
+  "cells": 24134,
+  "detection_rate": 0.8788845611999668,
+  "fitted_size": 3.727130997165973,
+  "fitted_size_min": 3.727130997165973,
+  "fitted_size_max": 3.727130997165973,
+  "mean_fitted_log_score": -2.1676233588157547,
+  "observed_stratified_ks": 3.5148185917839565,
+  "fixed_parameter_cutoff_95": 1.7213737177767336,
+  "refitted_cutoff_95": 1.3398294396988641,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0001,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 0,
+  "refitted_tail_mc_lower": 0.0,
+  "refitted_tail_mc_upper": 0.0003688567934951887,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20263849,
+  "elapsed_seconds": 281.21937458298635
+}

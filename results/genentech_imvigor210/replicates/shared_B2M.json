@@ -1,0 +1,23 @@
+{
+  "gene": "B2M",
+  "dispersion_model": "shared",
+  "cells": 24134,
+  "detection_rate": 0.9933703488853899,
+  "fitted_size": 6.849856415082302,
+  "fitted_size_min": 6.849856415082302,
+  "fitted_size_max": 6.849856415082302,
+  "mean_fitted_log_score": -3.550673537788217,
+  "observed_stratified_ks": 8.848947356407125,
+  "fixed_parameter_cutoff_95": 1.714888268939621,
+  "refitted_cutoff_95": 1.3400988967646512,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0001,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 0,
+  "refitted_tail_mc_lower": 0.0,
+  "refitted_tail_mc_upper": 0.0003688567934951887,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20261831,
+  "elapsed_seconds": 335.8540629160125
+}

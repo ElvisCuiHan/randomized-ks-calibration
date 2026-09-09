@@ -1,0 +1,42 @@
+{
+  "date_utc": "2026-09-08T16:11:53.562936+00:00",
+  "repeats": 5,
+  "seed": 20260909,
+  "sizes": [
+    1000,
+    10000,
+    100000,
+    1000000
+  ],
+  "genes": 10,
+  "warmup": "One n=10000, G=10 pass excluded from reported repetitions",
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "pandas": "2.2.2",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "workers": 1,
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "wall_seconds_excluding_imports_and_warmup": 22.18139887508005,
+  "memory": "24*n bytes analytic three-array baseline; peak RSS not measured",
+  "source_sha256": "9a0db8613975bc20dbe27283df47379e5527c24b42bfb5287d89496a39d3fd25",
+  "hardware": {
+    "inspected_local_date": "2026-09-09",
+    "timezone": "Asia/Shanghai",
+    "cpu": "Apple M1 Max",
+    "model_identifier": "MacBookPro18,2",
+    "physical_cpu_cores": 10,
+    "logical_cpu_cores": 10,
+    "performance_cores": 8,
+    "efficiency_cores": 2,
+    "memory_bytes": 68719476736,
+    "memory_gib": 64,
+    "os": "macOS 26.5.2",
+    "os_build": "25F84",
+    "source": "Read-only sysctl and sw_vers on this analysis host; no serial number collected",
+    "provenance": "Inventory collected after the 2026-09-08 conditional run. It does not reconstruct the hardware or load of the older Table 10 timing run."
+  }
+}

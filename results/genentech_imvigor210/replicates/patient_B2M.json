@@ -1,0 +1,23 @@
+{
+  "gene": "B2M",
+  "dispersion_model": "patient",
+  "cells": 24134,
+  "detection_rate": 0.9933703488853899,
+  "fitted_size": 5.390430528641653,
+  "fitted_size_min": 1.6810576887273125,
+  "fitted_size_max": 11.372625208047088,
+  "mean_fitted_log_score": -3.517098427965567,
+  "observed_stratified_ks": 3.2749317723328573,
+  "fixed_parameter_cutoff_95": 1.722892440295203,
+  "refitted_cutoff_95": 1.5666841730048227,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0023,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 22,
+  "refitted_tail_mc_lower": 0.0013793638974527306,
+  "refitted_tail_mc_upper": 0.003329275619157902,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20261831,
+  "elapsed_seconds": 287.21008799993433
+}

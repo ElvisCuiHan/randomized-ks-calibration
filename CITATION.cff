@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and identify the reproducibility release used."
+type: software
+title: "Randomized Kolmogorov-Smirnov Calibration for Fitted Discrete Single-Cell Residual Diagnostics"
+authors:
+  - family-names: Cui
+    given-names: Elvis Han
+  - family-names: Li
+    given-names: Yihao
+  - family-names: Liu
+    given-names: Zhuang
+version: 1.0.0
+date-released: 2026-09-09
+repository-code: "https://github.com/ElvisCuiHan/randomized-ks-calibration"
+url: "https://github.com/ElvisCuiHan/randomized-ks-calibration/releases/tag/v1.0.0"
+abstract: "Analysis code and retained numerical evidence for randomized residual calibration of fitted discrete single-cell margins. The accompanying research manuscript is under revision."
+keywords:
+  - Kolmogorov-Smirnov
+  - randomized residuals
+  - parametric bootstrap
+  - single-cell
+  - reproducibility

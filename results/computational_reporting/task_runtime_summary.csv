@@ -1,0 +1,8 @@
+workload,cells,tasks,boot,bootstrap_refits,median_task_seconds,min_task_seconds,max_task_seconds,summed_task_seconds,timing_scope
+Linear / linear,240,500,199,99500,1.65300000000002,1.517,2.18299999999999,834.8530000000002,"One outer sample: design, observed fit and bootstrap; excludes record serialization"
+Periodic / linear,240,500,199,99500,1.58999999999997,1.423,1.93600000000001,798.9609999999997,"One outer sample: design, observed fit and bootstrap; excludes record serialization"
+Periodic / periodic,240,500,199,99500,1.80799999999999,1.66300000000001,2.09699999999998,909.2750000000005,"One outer sample: design, observed fit and bootstrap; excludes record serialization"
+Spline / spline,2087,500,199,99500,8.122000000000074,7.25300000000016,507.031,9928.579999999998,"One outer sample: design, observed fit and bootstrap; excludes record serialization"
+Pancreas,2087,10,1999,19990,222.151,191.045,246.508,2194.3160000000003,"One gene: observed fit, bootstrap, RDS output and tail summaries; excludes data loading"
+PBMC / shared,24134,10,9999,99990,202.78909889556235,95.00165591703262,335.8540629160125,2038.201679582009,"One gene-model: bootstrap and summaries; excludes observed fit, loading, QC and output"
+PBMC / patient,24134,10,9999,99990,179.89306016697083,93.5345424580155,287.21008799993433,1776.8974422930041,"One gene-model: bootstrap and summaries; excludes observed fit, loading, QC and output"

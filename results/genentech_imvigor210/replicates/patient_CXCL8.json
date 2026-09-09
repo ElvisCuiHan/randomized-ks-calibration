@@ -1,0 +1,23 @@
+{
+  "gene": "CXCL8",
+  "dispersion_model": "patient",
+  "cells": 24134,
+  "detection_rate": 0.347932377558631,
+  "fitted_size": 0.2548491916999559,
+  "fitted_size_min": 0.061377007755791635,
+  "fitted_size_max": 0.6386795536294455,
+  "mean_fitted_log_score": -1.4612005717630845,
+  "observed_stratified_ks": 5.4027406907126565,
+  "fixed_parameter_cutoff_95": 1.7208568224351892,
+  "refitted_cutoff_95": 3.2256381322595344,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0077,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 76,
+  "refitted_tail_mc_lower": 0.005993073609827086,
+  "refitted_tail_mc_upper": 0.009504375376319787,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20260822,
+  "elapsed_seconds": 182.8681328749517
+}

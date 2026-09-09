@@ -1,0 +1,67 @@
+\begin{thebibliography}{10}
+
+\bibitem{birnbaum1951one}
+ZW~Birnbaum and Fred~H Tingey.
+\newblock One-sided confidence contours for probability distribution functions.
+\newblock {\em The Annals of Mathematical Statistics}, pages 592--596, 1951.
+
+\bibitem{cui2024natureinspired}
+Elvis~Han Cui, Zizhao Zhang, Culsome~Junwen Chen, and Weng~Kee Wong.
+\newblock Applications of nature-inspired metaheuristic algorithms for tackling
+  optimization problems across disciplines.
+\newblock {\em Scientific Reports}, 14:9403, 2024.
+
+\bibitem{dvoretzky1956asymptotic}
+Aryeh Dvoretzky, Jack Kiefer, and Jacob Wolfowitz.
+\newblock Asymptotic minimax character of the sample distribution function and
+  of the classical multinomial estimator.
+\newblock {\em The Annals of Mathematical Statistics}, pages 642--669, 1956.
+
+\bibitem{feller1968introduction}
+William Feller.
+\newblock {\em An introduction to probability theory and its applications,
+  Volume 1}.
+\newblock John Wiley \& Sons, 1968.
+
+\bibitem{feller1991introduction}
+William Feller.
+\newblock {\em An introduction to probability theory and its applications,
+  Volume 2}.
+\newblock John Wiley \& Sons, 1991.
+
+\bibitem{kosorok2008introduction}
+Michael~R Kosorok.
+\newblock {\em Introduction to empirical processes and semiparametric
+  inference}, volume~61.
+\newblock Springer, 2008.
+
+\bibitem{massart1990tight}
+Pascal Massart.
+\newblock The tight constant in the dvoretzky-kiefer-wolfowitz inequality.
+\newblock {\em The annals of Probability}, pages 1269--1283, 1990.
+
+\bibitem{petropoulos2016embryos}
+Sophie Petropoulos, Daniel Edsg{\"a}rd, Bj{\"o}rn Reinius, Qiaolin Deng,
+  Sarita~Pauliina Panula, Simone Codeluppi, Alvaro Plaza~Reyes, Sten
+  Linnarsson, Rickard Sandberg, and Fredrik Lanner.
+\newblock Single-cell {RNA-Seq} reveals lineage and {X} chromosome dynamics in
+  human preimplantation embryos.
+\newblock {\em Cell}, 165(4):1012--1026, 2016.
+
+\bibitem{rosenberg2016atezolizumab}
+Jonathan~E. Rosenberg, Jean Hoffman-Censits, Thomas Powles, Michiel~S. van~der
+  Heijden, Arjun~V. Balar, Andrea Necchi, et~al.
+\newblock Atezolizumab in patients with locally advanced and metastatic
+  urothelial carcinoma who have progressed following treatment with
+  platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial.
+\newblock {\em The Lancet}, 387(10031):1909--1920, 2016.
+
+\bibitem{yuen2020il8}
+Kobe~C. Yuen, Li-Fen Liu, Vinita Gupta, Shravan Madireddi, Shilpa Keerthivasan,
+  Congfen Li, Deepali Rishipathak, Patrick Williams, Edward~E. Kadel, Hartmut
+  Koeppen, et~al.
+\newblock High systemic and tumor-associated {IL-8} correlates with reduced
+  clinical benefit of {PD-L1} blockade.
+\newblock {\em Nature Medicine}, 26(5):693--698, 2020.
+
+\end{thebibliography}

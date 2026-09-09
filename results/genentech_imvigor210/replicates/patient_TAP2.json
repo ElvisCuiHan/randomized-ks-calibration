@@ -1,0 +1,23 @@
+{
+  "gene": "TAP2",
+  "dispersion_model": "patient",
+  "cells": 24134,
+  "detection_rate": 0.03720891688074915,
+  "fitted_size": 1.5179151014362176,
+  "fitted_size_min": 0.15501058666618328,
+  "fitted_size_max": 1000.0,
+  "mean_fitted_log_score": -0.15597488523137826,
+  "observed_stratified_ks": 1.5468088428848308,
+  "fixed_parameter_cutoff_95": 1.729297004921195,
+  "refitted_cutoff_95": 1.6993714868920862,
+  "fixed_parameter_p": 0.1522,
+  "refitted_p": 0.1291,
+  "fixed_exceedances": 1521,
+  "refitted_exceedances": 1290,
+  "refitted_tail_mc_lower": 0.12250122762167003,
+  "refitted_tail_mc_upper": 0.13574147553797353,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20269903,
+  "elapsed_seconds": 93.5345424580155
+}

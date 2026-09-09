@@ -1,0 +1,23 @@
+{
+  "gene": "CD74",
+  "dispersion_model": "patient",
+  "cells": 24134,
+  "detection_rate": 0.6646639595591282,
+  "fitted_size": 0.33163997369560566,
+  "fitted_size_min": 0.17547038041299481,
+  "fitted_size_max": 0.4690743987589906,
+  "mean_fitted_log_score": -2.310935650586953,
+  "observed_stratified_ks": 14.00408449228854,
+  "fixed_parameter_cutoff_95": 1.7248538927454975,
+  "refitted_cutoff_95": 4.063797394162966,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0001,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 0,
+  "refitted_tail_mc_lower": 0.0,
+  "refitted_tail_mc_upper": 0.0003688567934951887,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20262840,
+  "elapsed_seconds": 212.4035759170074
+}

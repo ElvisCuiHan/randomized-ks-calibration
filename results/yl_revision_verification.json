@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-07",
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "pandas": "2.2.2",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "pbmc_models": 2,
+  "pbmc_genes_per_model": 10,
+  "pbmc_bootstrap_per_gene_model": 9999,
+  "pbmc_total_refits": 199980,
+  "pancreas_genes": 10,
+  "pancreas_bootstrap_per_gene": 1999,
+  "pancreas_total_refits": 19990,
+  "failed_fits": 0,
+  "pbmc_observed_statistics_match_archived": true,
+  "embryo_cell_ids_and_stages_verified": 1289,
+  "checks": "All saved Python reference draws and both summary tables verified"
+}

@@ -1,0 +1,23 @@
+{
+  "gene": "HLA-DRB1",
+  "dispersion_model": "patient",
+  "cells": 24134,
+  "detection_rate": 0.42123145769453885,
+  "fitted_size": 0.289987253208484,
+  "fitted_size_min": 0.12066716117619868,
+  "fitted_size_max": 0.483941736322866,
+  "mean_fitted_log_score": -1.5024068683954972,
+  "observed_stratified_ks": 5.122162212796131,
+  "fixed_parameter_cutoff_95": 1.7279132082485558,
+  "refitted_cutoff_95": 3.1688649911464233,
+  "fixed_parameter_p": 0.0001,
+  "refitted_p": 0.0058,
+  "fixed_exceedances": 0,
+  "refitted_exceedances": 57,
+  "refitted_tail_mc_lower": 0.004320331092170499,
+  "refitted_tail_mc_upper": 0.007379521518958718,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20267885,
+  "elapsed_seconds": 176.91798745898996
+}

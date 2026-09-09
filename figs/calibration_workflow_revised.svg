@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="437.04pt" height="379.44pt" viewBox="0 0 437.04 379.44" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-07T16:40:54.043618</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 379.44 
+L 437.04 379.44 
+L 437.04 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.12 108 
+C 44.124935 108 46.048024 107.203431 47.465727 105.785727 
+C 48.883431 104.368024 49.68 102.444935 49.68 100.44 
+C 49.68 98.435065 48.883431 96.511976 47.465727 95.094273 
+C 46.048024 93.676569 44.124935 92.88 42.12 92.88 
+C 40.115065 92.88 38.191976 93.676569 36.774273 95.094273 
+C 35.356569 96.511976 34.56 98.435065 34.56 100.44 
+C 34.56 102.444935 35.356569 104.368024 36.774273 105.785727 
+C 38.191976 107.203431 40.115065 108 42.12 108 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #287d6d"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 177.24 108 
+C 179.244935 108 181.168024 107.203431 182.585727 105.785727 
+C 184.003431 104.368024 184.8 102.444935 184.8 100.44 
+C 184.8 98.435065 184.003431 96.511976 182.585727 95.094273 
+C 181.168024 93.676569 179.244935 92.88 177.24 92.88 
+C 175.235065 92.88 173.311976 93.676569 171.894273 95.094273 
+C 170.476569 96.511976 169.68 98.435065 169.68 100.44 
+C 169.68 102.444935 170.476569 104.368024 171.894273 105.785727 
+C 173.311976 107.203431 175.235065 108 177.24 108 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #b66344"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 312.36 108 
+C 314.364935 108 316.288024 107.203431 317.705727 105.785727 
+C 319.123431 104.368024 319.92 102.444935 319.92 100.44 
+C 319.92 98.435065 319.123431 96.511976 317.705727 95.094273 
+C 316.288024 93.676569 314.364935 92.88 312.36 92.88 
+C 310.355065 92.88 308.431976 93.676569 307.014273 95.094273 
+C 305.596569 96.511976 304.8 98.435065 304.8 100.44 
+C 304.8 102.444935 305.596569 104.368024 307.014273 105.785727 
+C 308.431976 107.203431 310.355065 108 312.36 108 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #795c96"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 159.802852 139.32 
+Q 164.282282 139.32 167.811383 139.32 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 164.411383 137.62 
+L 167.811383 139.32 
+L 164.411383 141.02 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #80909a; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 294.922852 139.32 
+Q 299.402282 139.32 302.931383 139.32 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 299.531383 137.62 
+L 302.931383 139.32 
+L 299.531383 141.02 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #80909a; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 159.802852 246.6 
+Q 164.282282 246.6 167.811383 246.6 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 164.411383 244.9 
+L 167.811383 246.6 
+L 164.411383 248.3 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #80909a; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 294.922852 246.6 
+Q 299.402282 246.6 302.931383 246.6 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 299.531383 244.9 
+L 302.931383 246.6 
+L 299.531383 248.3 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #80909a; stroke: #80909a; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 38.16 83.16 
+L 155.28 83.16 
+Q 157.8 83.16 157.8 80.64 
+L 157.8 36.72 
+Q 157.8 34.2 155.28 34.2 
+L 38.16 34.2 
+Q 35.64 34.2 35.64 36.72 
+L 35.64 80.64 
+Q 35.64 83.16 38.16 83.16 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #eef5fb; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 173.28 83.16 
+L 290.4 83.16 
+Q 292.92 83.16 292.92 80.64 
+L 292.92 36.72 
+Q 292.92 34.2 290.4 34.2 
+L 173.28 34.2 
+Q 170.76 34.2 170.76 36.72 
+L 170.76 80.64 
+Q 170.76 83.16 173.28 83.16 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #eef7f3; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 308.4 83.16 
+L 425.52 83.16 
+Q 428.04 83.16 428.04 80.64 
+L 428.04 36.72 
+Q 428.04 34.2 425.52 34.2 
+L 308.4 34.2 
+Q 305.88 34.2 305.88 36.72 
+L 305.88 80.64 
+Q 305.88 83.16 308.4 83.16 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #f5f1f8; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 38.16 165.96 
+L 155.28 165.96 
+Q 157.8 165.96 157.8 163.44 
+L 157.8 119.52 
+Q 157.8 117 155.28 117 
+L 38.16 117 
+Q 35.64 117 35.64 119.52 
+L 35.64 163.44 
+Q 35.64 165.96 38.16 165.96 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #eef7f3; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 173.28 165.96 
+L 290.4 165.96 
+Q 292.92 165.96 292.92 163.44 
+L 292.92 119.52 
+Q 292.92 117 290.4 117 
+L 173.28 117 
+Q 170.76 117 170.76 119.52 
+L 170.76 163.44 
+Q 170.76 165.96 173.28 165.96 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #fcf3ee; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 308.4 165.96 
+L 425.52 165.96 
+Q 428.04 165.96 428.04 163.44 
+L 428.04 119.52 
+Q 428.04 117 425.52 117 
+L 308.4 117 
+Q 305.88 117 305.88 119.52 
+L 305.88 163.44 
+Q 305.88 165.96 308.4 165.96 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #f5f1f8; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 38.16 274.68 
+L 155.28 274.68 
+Q 157.8 274.68 157.8 272.16 
+L 157.8 221.04 
+Q 157.8 218.52 155.28 218.52 
+L 38.16 218.52 
+Q 35.64 218.52 35.64 221.04 
+L 35.64 272.16 
+Q 35.64 274.68 38.16 274.68 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #eff6fa; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 173.28 274.68 
+L 290.4 274.68 
+Q 292.92 274.68 292.92 272.16 
+L 292.92 221.04 
+Q 292.92 218.52 290.4 218.52 
+L 173.28 218.52 
+Q 170.76 218.52 170.76 221.04 
+L 170.76 272.16 
+Q 170.76 274.68 173.28 274.68 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #eff6fa; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 308.4 274.68 
+L 425.52 274.68 
+Q 428.04 274.68 428.04 272.16 
+L 428.04 221.04 
+Q 428.04 218.52 425.52 218.52 
+L 308.4 218.52 
+Q 305.88 218.52 305.88 221.04 
+L 305.88 272.16 
+Q 305.88 274.68 308.4 274.68 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #eff6fa; stroke: #c9d3d9; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 35.64 322.92 
+L 428.04 322.92 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #d4dde2; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 14.04 26.64 
+C 16.235882 26.64 18.342121 25.767567 19.894844 24.214844 
+C 21.447567 22.662121 22.32 20.555882 22.32 18.36 
+C 22.32 16.164118 21.447567 14.057879 19.894844 12.505156 
+C 18.342121 10.952433 16.235882 10.08 14.04 10.08 
+C 11.844118 10.08 9.737879 10.952433 8.185156 12.505156 
+C 6.632433 14.057879 5.76 16.164118 5.76 18.36 
+C 5.76 20.555882 6.632433 22.662121 8.185156 24.214844 
+C 9.737879 25.767567 11.844118 26.64 14.04 26.64 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #f3f6f7; stroke: #bcc9d0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #24313b; font: 700 10.8px 'DejaVu Sans'; text-anchor: start" x="35.64" y="21.297937" transform="rotate(-0 35.64 21.297937)">Specify the diagnostic target</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 14.04 210.24 
+C 16.235882 210.24 18.342121 209.367567 19.894844 207.814844 
+C 21.447567 206.262121 22.32 204.155882 22.32 201.96 
+C 22.32 199.764118 21.447567 197.657879 19.894844 196.105156 
+C 18.342121 194.552433 16.235882 193.68 14.04 193.68 
+C 11.844118 193.68 9.737879 194.552433 8.185156 196.105156 
+C 6.632433 197.657879 5.76 199.764118 5.76 201.96 
+C 5.76 204.155882 6.632433 206.262121 8.185156 207.814844 
+C 9.737879 209.367567 11.844118 210.24 14.04 210.24 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #f3f6f7; stroke: #bcc9d0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <!-- Refitted bootstrap: repeat $B$ times -->
+    <g style="fill: #24313b" transform="translate(35.64 204.93)">
+     <text>
+      <tspan style="font: 700 10.8px 'DejaVu Sans'" x="0 8.313797 15.636475 20.33374 24.034622 29.195816 34.35701 41.679688 49.40831 53.167175 60.895798 68.31337 75.730942 80.892136 87.318588 92.479782 97.804413 105.090195 112.818817 117.136505 120.89537 126.220001 133.542679 141.271301 148.593979 155.879761 161.040955 172.206848 175.965714 181.126907 184.827789 196.078049 203.400726" y="-0.796875">Refitted bootstrap: repeat  times</tspan>
+      <tspan style="font: oblique 10.8px 'DejaVu Sans'" x="164.79982" y="-0.796875">B</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="patch_20">
+    <path d="M 14.04 318.24 
+C 16.235882 318.24 18.342121 317.367567 19.894844 315.814844 
+C 21.447567 314.262121 22.32 312.155882 22.32 309.96 
+C 22.32 307.764118 21.447567 305.657879 19.894844 304.105156 
+C 18.342121 302.552433 16.235882 301.68 14.04 301.68 
+C 11.844118 301.68 9.737879 302.552433 8.185156 304.105156 
+C 6.632433 305.657879 5.76 307.764118 5.76 309.96 
+C 5.76 312.155882 6.632433 314.262121 8.185156 315.814844 
+C 9.737879 317.367567 11.844118 318.24 14.04 318.24 
+z
+" clip-path="url(#p0559dfdef6)" style="fill: #f3f6f7; stroke: #bcc9d0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="fill: #24313b; font: 700 10.8px 'DejaVu Sans'; text-anchor: start" x="35.64" y="312.940125" transform="rotate(-0 35.64 312.940125)">Draw a component-specific conclusion</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 39.6 34.2 
+L 153.84 34.2 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #2d719f; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 174.72 34.2 
+L 288.96 34.2 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #287d6d; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 309.84 34.2 
+L 424.08 34.2 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #795c96; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="fill: #ffffff; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="42.12" y="102.923438" transform="rotate(-0 42.12 102.923438)">2</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #287d6d; font: 700 9.4px 'DejaVu Sans'; text-anchor: start" x="53.64" y="103.033813" transform="rotate(-0 53.64 103.033813)">Fit the model</text>
+   </g>
+   <g id="line2d_5">
+    <path d="M 39.6 117 
+L 153.84 117 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #287d6d; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="fill: #ffffff; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="177.24" y="102.923438" transform="rotate(-0 177.24 102.923438)">3</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #b66344; font: 700 9.4px 'DejaVu Sans'; text-anchor: start" x="188.76" y="103.033813" transform="rotate(-0 188.76 103.033813)">Randomized PIT</text>
+   </g>
+   <g id="line2d_6">
+    <path d="M 174.72 117 
+L 288.96 117 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #b66344; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="fill: #ffffff; font: 700 9px 'DejaVu Sans'; text-anchor: middle" x="312.36" y="102.923438" transform="rotate(-0 312.36 102.923438)">4</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #795c96; font: 700 9.4px 'DejaVu Sans'; text-anchor: start" x="323.88" y="103.033813" transform="rotate(-0 323.88 103.033813)">Compute statistic</text>
+   </g>
+   <g id="line2d_7">
+    <path d="M 309.84 117 
+L 424.08 117 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #795c96; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <!-- $V_i\overset{\mathrm{iid}}{\sim}\mathrm{Unif}(0,1)$, independent of the observed data -->
+    <g style="fill: #53616b" transform="translate(115.845 184.01)">
+     <text>
+      <tspan style="font: oblique 9.5px 'DejaVu Sans'" x="0" y="-0.2703124999999993">V</tspan>
+      <tspan style="font: oblique 6.65px 'DejaVu Sans'" x="6.498779" y="1.2906250000000004">i</tspan>
+      <tspan style="font: 6.65px 'DejaVu Sans'" x="10.606519 12.454102 14.301685" y="-5.946875">iid</tspan>
+      <tspan style="font: 9.5px 'DejaVu Sans'" x="10.457349 20.26814 27.221509 33.242505 35.881909 39.226392 42.93269 48.97688 53.847485 59.891675 63.597974 66.617749 69.637524 72.276929 78.297925 84.328198 90.172925 96.203198 102.047925 108.068921 114.099194 119.943921 125.964917 129.689771 132.709546 138.521802 141.866284 144.88606 148.610913 154.631909 160.476636 163.496411 169.308667 175.33894 180.288403 186.13313 190.038892 195.660962 201.505688 207.535962 210.555737 216.586011 222.407544 226.132397" y="-0.2703124999999993">∼Unif(0,1), independent of the observed data</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="line2d_8">
+    <path d="M 39.6 218.52 
+L 153.84 218.52 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #2d719f; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 174.72 218.52 
+L 288.96 218.52 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #2d719f; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 309.84 218.52 
+L 424.08 218.52 
+" clip-path="url(#p0559dfdef6)" style="fill: none; stroke: #2d719f; stroke-width: 1.65; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <!-- Compare $S_{\mathrm{obs}}$ with the empirical distribution of $S_1^*,\ldots,S_B^*$ -->
+    <g style="fill: #53616b" transform="translate(99.408 293.4495)">
+     <text>
+      <tspan style="font: 9.3px 'DejaVu Sans'" x="0 6.49147 12.179443 21.235718 27.137054 32.834106 36.656357 42.376114 62.989613 65.944814 73.548451 76.131413 79.776616 85.668874 88.624074 92.269276 98.161534 103.881291 106.836491 112.556248 121.612523 127.51386 130.096822 133.919072 136.502034 141.613499 147.310551 149.893513 152.848714 158.75005 161.333012 166.17664 169.821843 173.644093 176.227055 182.128392 188.02065 191.665852 194.248814 199.936787 205.829045 208.784245 214.472218 217.745183 233.31594 238.082395 247.37927" y="-0.6109375000000004">Compare  with the empirical distribution of ,…,</tspan>
+      <tspan style="font: oblique 9.3px 'DejaVu Sans'" x="45.331314 220.700383 252.145725" y="-0.6109375000000004">SSS</tspan>
+      <tspan style="font: 6.51px 'DejaVu Sans'" x="51.232651 55.214232 59.345168 226.60172 228.540249 259.985591" y="0.9124999999999996 0.9124999999999996 0.9124999999999996 1.9281249999999996 -4.165625 -4.165625">obs1**</tspan>
+      <tspan style="font: oblique 6.51px 'DejaVu Sans'" x="258.047062" y="1.9281249999999996">B</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- $\widehat p=\frac{1+\sum_{b=1}^{B}\mathbf{1}\{S_b^*\geq S_{\mathrm{obs}}\}}{B+1}$ -->
+    <g style="fill: #24313b" transform="translate(177.6 354.06)">
+     <text>
+      <tspan style="font: 7.244681px 'STIXSizeTwoSym'" x="9.101562" y="-5.061718749999997">̂</tspan>
+      <tspan style="font: oblique 12px 'DejaVu Sans'" x="0" y="-0.9210937499999972">p</tspan>
+      <tspan style="font: 12px 'DejaVu Sans'" x="9.955078" y="-0.9210937499999972">=</tspan>
+      <tspan style="font: 8.4px 'DejaVu Sans'" x="22.347656 29.328516 58.539434 61.746875 70.42168 76.917988 101.547871" y="-14.595312499999999 -14.595312499999999 -14.595312499999999 3.696093750000003 3.696093750000003 -14.595312499999999 -14.595312499999999">1+{+1≥}</tspan>
+      <tspan style="font: oblique 5.88px 'DejaVu Sans'" x="38.00332 43.00332 69.215801" y="-6.263125000000002 -24.7125 -12.298437499999999">bBb</tspan>
+      <tspan style="font: 8.4px 'DejaVu Sans Display'" x="42.00332" y="-14.5953125">∑</tspan>
+      <tspan style="font: 5.88px 'DejaVu Sans'" x="42.881309 48.953672 70.966211 90.924824 94.522305 98.254727" y="-6.263125000000002 -6.263125000000002 -17.819687499999997 -13.217187499999998 -13.217187499999998 -13.217187499999998">=1*obs</tspan>
+      <tspan style="font: 700 8.4px 'DejaVu Sans'" x="52.694707" y="-14.595312499999999">1</tspan>
+      <tspan style="font: oblique 8.4px 'DejaVu Sans'" x="54.347656 63.88377 85.592793" y="3.696093750000003 -14.595312499999999 -14.595312499999999">BSS</tspan>
+     </text>
+     <rect x="22.347656" y="-4.178906" width="84.544551" height="0.75"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="fill: #53616b; font: 9px 'DejaVu Sans'; text-anchor: middle" x="231.84" y="369.323438" transform="rotate(-0 231.84 369.323438)">Apply the prespecified multiplicity rule; report only the tested component.</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #24313b; font: 700 9.3px 'DejaVu Sans'; text-anchor: middle" x="14.04" y="20.926219" transform="rotate(-0 14.04 20.926219)">1</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #24313b; font: 700 9.3px 'DejaVu Sans'; text-anchor: middle" x="14.04" y="204.526219" transform="rotate(-0 14.04 204.526219)">5</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #24313b; font: 700 9.3px 'DejaVu Sans'; text-anchor: middle" x="14.04" y="312.526219" transform="rotate(-0 14.04 312.526219)">6</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #2d719f; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="96.72" y="51.320313" transform="rotate(-0 96.72 51.320313)">Marginal</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #24313b; font: 9.3px 'DejaVu Sans'" transform="translate(66.157148 65.942572)">Gene-wise or</text>
+    <text style="fill: #24313b; font: 9.3px 'DejaVu Sans'" transform="translate(62.381203 76.709865)">aggregated KS</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #287d6d; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="231.84" y="51.359375" transform="rotate(-0 231.84 51.359375)">Covariate-indexed</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #24313b; font: 9.3px 'DejaVu Sans'" transform="translate(178.314867 65.942572)">Residual variation over</text>
+    <text style="fill: #24313b; font: 9.3px 'DejaVu Sans'" transform="translate(173.536266 76.709865)">pseudotime, batch, state</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #795c96; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="366.96" y="51.359375" transform="rotate(-0 366.96 51.359375)">Dependence</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #24313b; font: 9.3px 'DejaVu Sans'" transform="translate(322.683281 65.942572)">Rank correlation or</text>
+    <text style="fill: #24313b; font: 9.3px 'DejaVu Sans'" transform="translate(328.503773 76.709865)">empirical copula</text>
+   </g>
+   <g id="text_23">
+    <!-- $\widehat\theta=\mathcal{A}(D)$ -->
+    <g style="fill: #24313b" transform="translate(77.17 139.57693)">
+     <text>
+      <tspan style="font: 5.376px 'STIXSizeTwoSym'" x="6.5" y="-5.828125">̂</tspan>
+      <tspan style="font: oblique 9.2px 'DejaVu Sans'" x="0 28.311188" y="-0.6624999999999996">θD</tspan>
+      <tspan style="font: 9.2px 'DejaVu Sans'" x="7.411011 24.726807 35.385742" y="-0.6624999999999996">=()</tspan>
+      <tspan style="font: italic 9.2px 'STIXNonUnicode'" x="16.899078" y="-0.6624999999999996"></tspan>
+     </text>
+    </g>
+    <text style="fill: #24313b; font: 9.2px 'DejaVu Sans'" transform="translate(40.446188 150.228445)">Conditional count model</text>
+   </g>
+   <g id="text_24">
+    <!-- $U_i=F_{\widehat\theta}(X_i^-\mid Z_i)$ -->
+    <g style="fill: #24313b" transform="translate(197.616 138.283)">
+     <text>
+      <tspan style="font: oblique 9.2px 'DejaVu Sans'" x="0 20.041025 33.09632 56.355061" y="-0.921875">UFXZ</tspan>
+      <tspan style="font: oblique 6.44px 'DejaVu Sans'" x="6.72464 25.325632 39.390295 62.649037" y="0.5875000000000004 0.5874999999999986 1.59375 0.5875000000000004">iθii</tspan>
+      <tspan style="font: 9.2px 'DejaVu Sans'" x="10.552957 29.511938 49.971364 64.687407" y="-0.921875">=(∣)</tspan>
+      <tspan style="font: 3.7632px 'STIXSizeTwoSym'" x="30.556882" y="-3.0409375">̂</tspan>
+      <tspan style="font: 6.44px 'DejaVu Sans'" x="41.288207" y="-4.4453125">−</tspan>
+     </text>
+    </g>
+    <!-- $+V_i p_{\widehat\theta}(X_i\mid Z_i)$ -->
+    <g style="fill: #24313b" transform="translate(202.768 149.829)">
+     <text>
+      <tspan style="font: 9.2px 'DejaVu Sans'" x="0 26.039709 39.746384 54.462427" y="-0.921875">+(∣)</tspan>
+      <tspan style="font: oblique 9.2px 'DejaVu Sans'" x="7.69812 16.021494 29.624091 46.130081" y="-0.921875">VpXZ</tspan>
+      <tspan style="font: oblique 6.44px 'DejaVu Sans'" x="13.983124 21.853403 35.918066 52.424057" y="0.5875000000000004 0.5874999999999986 0.5875000000000004 0.5875000000000004">iθii</tspan>
+      <tspan style="font: 3.7632px 'STIXSizeTwoSym'" x="27.084653" y="-3.0409375">̂</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- $S_{\mathrm{obs}}=S(U,D)$ -->
+    <g style="fill: #24313b" transform="translate(336.784 138.692867)">
+     <text>
+      <tspan style="font: oblique 9.2px 'DejaVu Sans'" x="0 28.729224 38.145514 49.580542" y="-0.03125">SSUD</tspan>
+      <tspan style="font: 6.44px 'DejaVu Sans'" x="5.831909 9.766653 13.84899" y="1.4781250000000004">obs</tspan>
+      <tspan style="font: 9.2px 'DejaVu Sans'" x="19.241156 34.561133 44.870154 56.655096" y="-0.03125">=(,)</tspan>
+     </text>
+    </g>
+    <text style="fill: #24313b; font: 9.2px 'DejaVu Sans'" transform="translate(314.116781 149.344383)">Target-specific statistic</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #27658c; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="96.72" y="234.959375" transform="rotate(-0 96.72 234.959375)">Simulate</text>
+   </g>
+   <g id="text_27">
+    <!-- $D_b^*\sim P_{\widehat\theta}$ -->
+    <g style="fill: #24313b" transform="translate(79.71 253.54002)">
+     <text>
+      <tspan style="font: oblique 9px 'DejaVu Sans'" x="0 24.460547" y="-0.8640625000000011">DP</tspan>
+      <tspan style="font: 6.3px 'DejaVu Sans'" x="8.789209" y="-4.3187500000000005">*</tspan>
+      <tspan style="font: oblique 6.3px 'DejaVu Sans'" x="6.930176 29.887793" y="1.596874999999999 0.6124999999999989">bθ</tspan>
+      <tspan style="font: 9px 'DejaVu Sans'" x="15.166113" y="-0.8640625000000011">∼</tspan>
+      <tspan style="font: 3.692718px 'STIXSizeTwoSym'" x="35.024512" y="-2.9312500000000012">̂</tspan>
+     </text>
+    </g>
+    <text style="fill: #24313b; font: 9px 'DejaVu Sans'" transform="translate(51.998438 264.698262)">Preserve the design</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: #27658c; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="231.84" y="234.959375" transform="rotate(-0 231.84 234.959375)">Refit</text>
+   </g>
+   <g id="text_29">
+    <!-- $\widehat\theta_b^*=\mathcal{A}(D_b^*)$ -->
+    <g style="fill: #24313b" transform="translate(206.505 254.03502)">
+     <text>
+      <tspan style="font: 5.275311px 'STIXSizeTwoSym'" x="6.351562" y="-5.90625">̂</tspan>
+      <tspan style="font: oblique 9px 'DejaVu Sans'" x="0 33.670441" y="-0.84375">θD</tspan>
+      <tspan style="font: 6.3px 'DejaVu Sans'" x="6.819873 42.45965" y="-4.2984374999999995">**</tspan>
+      <tspan style="font: oblique 6.3px 'DejaVu Sans'" x="5.59248 40.600616" y="1.6171875">bb</tspan>
+      <tspan style="font: 9px 'DejaVu Sans'" x="13.196777 30.15921 47.083136" y="-0.84375">=()</tspan>
+      <tspan style="font: italic 9px 'STIXNonUnicode'" x="22.491211" y="-0.84375"></tspan>
+     </text>
+    </g>
+    <text style="fill: #24313b; font: 9px 'DejaVu Sans'" transform="translate(181.174219 265.193262)">Same fitting algorithm</text>
+   </g>
+   <g id="text_30">
+    <text style="fill: #27658c; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="366.96" y="234.959375" transform="rotate(-0 366.96 234.959375)">Recompute</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: #24313b; font: 9px 'DejaVu Sans'" transform="translate(316.887656 252.019688)">Fresh independent PIT</text>
+    <!-- and the same statistic $S_b^*$ -->
+    <g style="fill: #24313b" transform="translate(309.27 264.128906)">
+     <text>
+      <tspan style="font: 9px 'DejaVu Sans'" x="0 5.515137 11.219238 16.932129 19.792969 23.321777 29.025879 34.562988 37.423828 42.112793 47.62793 56.39502 61.932129 64.792969 69.481934 73.010742 78.525879 82.054688 84.555176 89.244141 92.772949 95.273438 100.22168" y="-0.8640625000000011">and the same statistic </tspan>
+      <tspan style="font: oblique 9px 'DejaVu Sans'" x="103.08252" y="-0.8640625000000011">S</tspan>
+      <tspan style="font: 6.3px 'DejaVu Sans'" x="110.671943" y="-4.3187500000000005">*</tspan>
+      <tspan style="font: oblique 6.3px 'DejaVu Sans'" x="108.79541" y="1.596874999999999">b</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0559dfdef6">
+   <rect x="2.52" y="2.52" width="432" height="374.4"/>
+  </clipPath>
+ </defs>
+</svg>

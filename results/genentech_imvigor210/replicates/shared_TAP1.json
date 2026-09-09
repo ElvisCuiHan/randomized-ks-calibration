@@ -1,0 +1,23 @@
+{
+  "gene": "TAP1",
+  "dispersion_model": "shared",
+  "cells": 24134,
+  "detection_rate": 0.09194497389574874,
+  "fitted_size": 1.2289468181815786,
+  "fitted_size_min": 1.2289468181815786,
+  "fitted_size_max": 1.2289468181815786,
+  "mean_fitted_log_score": -0.32599081424762033,
+  "observed_stratified_ks": 1.5201596109149897,
+  "fixed_parameter_cutoff_95": 1.7225304833968922,
+  "refitted_cutoff_95": 1.6455560087114496,
+  "fixed_parameter_p": 0.1824,
+  "refitted_p": 0.1188,
+  "fixed_exceedances": 1823,
+  "refitted_exceedances": 1187,
+  "refitted_tail_mc_lower": 0.11243377395348947,
+  "refitted_tail_mc_upper": 0.1252129719459145,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20268894,
+  "elapsed_seconds": 104.31745804206003
+}

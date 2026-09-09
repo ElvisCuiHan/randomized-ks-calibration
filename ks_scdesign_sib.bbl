@@ -1,0 +1,200 @@
+\begin{thebibliography}{19}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Babu and Rao(2004)}]{babu2004goodness}
+\bibinfo{author}{Babu, G.J.}, \bibinfo{author}{Rao, C.R.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Goodness-of-fit tests when parameters are estimated}.
+\newblock \bibinfo{journal}{Sankhy{\=a}: The Indian Journal of Statistics} ,
+  \bibinfo{pages}{63--74}.
+%Type = Article
+\bibitem[{Bastidas-Ponce et~al.(2019)Bastidas-Ponce, Tritschler, Dony,
+  Scheibner, Tarquis-Medina, Salinno, Schirge, Burtscher, B{\"o}ttcher, Theis,
+  Lickert and Bakhti}]{bastidasponce2019pancreas}
+\bibinfo{author}{Bastidas-Ponce, A.}, \bibinfo{author}{Tritschler, S.},
+  \bibinfo{author}{Dony, L.}, \bibinfo{author}{Scheibner, K.},
+  \bibinfo{author}{Tarquis-Medina, M.}, \bibinfo{author}{Salinno, C.},
+  \bibinfo{author}{Schirge, S.}, \bibinfo{author}{Burtscher, I.},
+  \bibinfo{author}{B{\"o}ttcher, A.}, \bibinfo{author}{Theis, F.J.},
+  \bibinfo{author}{Lickert, H.}, \bibinfo{author}{Bakhti, M.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Comprehensive single cell mrna profiling reveals a
+  detailed roadmap for pancreatic endocrinogenesis}.
+\newblock \bibinfo{journal}{Development} \bibinfo{volume}{146},
+  \bibinfo{pages}{dev173849}.
+\newblock \DOIprefix\doi{10.1242/dev.173849}.
+%Type = Article
+\bibitem[{Bergen et~al.(2020)Bergen, Lange, Peidli, Wolf and
+  Theis}]{bergen2020scvelo}
+\bibinfo{author}{Bergen, V.}, \bibinfo{author}{Lange, M.},
+  \bibinfo{author}{Peidli, S.}, \bibinfo{author}{Wolf, F.A.},
+  \bibinfo{author}{Theis, F.J.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Generalizing {RNA} velocity to transient cell states
+  through dynamical modeling}.
+\newblock \bibinfo{journal}{Nature Biotechnology} \bibinfo{volume}{38},
+  \bibinfo{pages}{1408--1414}.
+\newblock \DOIprefix\doi{10.1038/s41587-020-0591-3}.
+%Type = Article
+\bibitem[{Cui et~al.(2022)Cui, Song, Wong and Li}]{cui2022scgtm}
+\bibinfo{author}{Cui, E.H.}, \bibinfo{author}{Song, D.}, \bibinfo{author}{Wong,
+  W.K.}, \bibinfo{author}{Li, J.J.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Single-cell generalized trend model ({scGTM}): a
+  flexible and interpretable model of gene expression trend along cell
+  pseudotime}.
+\newblock \bibinfo{journal}{Bioinformatics} \bibinfo{volume}{38},
+  \bibinfo{pages}{3927--3934}.
+\newblock \DOIprefix\doi{10.1093/bioinformatics/btac423}.
+%Type = Article
+\bibitem[{Cui et~al.(2024)Cui, Zhang, Chen and Wong}]{cui2024natureinspired}
+\bibinfo{author}{Cui, E.H.}, \bibinfo{author}{Zhang, Z.},
+  \bibinfo{author}{Chen, C.J.}, \bibinfo{author}{Wong, W.K.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Applications of nature-inspired metaheuristic
+  algorithms for tackling optimization problems across disciplines}.
+\newblock \bibinfo{journal}{Scientific Reports} \bibinfo{volume}{14},
+  \bibinfo{pages}{9403}.
+\newblock \DOIprefix\doi{10.1038/s41598-024-56670-6}.
+%Type = Book
+\bibitem[{Del~Barrio et~al.(2007)Del~Barrio, Deheuvels and Van
+  De~Geer}]{del2007lectures}
+\bibinfo{author}{Del~Barrio, E.}, \bibinfo{author}{Deheuvels, P.},
+  \bibinfo{author}{Van De~Geer, S.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Lectures on empirical processes}.
+\newblock \bibinfo{publisher}{European Mathematical Society Zurich}.
+%Type = Article
+\bibitem[{Dunn and Smyth(1996)}]{dunn1996randomized}
+\bibinfo{author}{Dunn, P.K.}, \bibinfo{author}{Smyth, G.K.},
+  \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{Randomized quantile residuals}.
+\newblock \bibinfo{journal}{Journal of Computational and Graphical Statistics}
+  \bibinfo{volume}{5}, \bibinfo{pages}{236--244}.
+\newblock \DOIprefix\doi{10.1080/10618600.1996.10474708}.
+%Type = Article
+\bibitem[{Durbin(1973)}]{durbin1973weak}
+\bibinfo{author}{Durbin, J.}, \bibinfo{year}{1973}.
+\newblock \bibinfo{title}{Weak convergence of the sample distribution function
+  when parameters are estimated}.
+\newblock \bibinfo{journal}{The Annals of Statistics} ,
+  \bibinfo{pages}{279--290}.
+%Type = Article
+\bibitem[{Khmaladze(1981)}]{khmaladze1981martingale}
+\bibinfo{author}{Khmaladze, E.V.}, \bibinfo{year}{1981}.
+\newblock \bibinfo{title}{Martingale approach in the theory of goodness-of-fit
+  tests}.
+\newblock \bibinfo{journal}{Theory of Probability \& Its Applications}
+  \bibinfo{volume}{26}, \bibinfo{pages}{240--257}.
+\newblock \DOIprefix\doi{10.1137/1126027}.
+%Type = Article
+\bibitem[{Li and Li(2019)}]{li2019scdesign}
+\bibinfo{author}{Li, W.V.}, \bibinfo{author}{Li, J.J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{A statistical simulator scdesign for rational
+  scrna-seq experimental design}.
+\newblock \bibinfo{journal}{Bioinformatics} \bibinfo{volume}{35},
+  \bibinfo{pages}{i41--i50}.
+\newblock \DOIprefix\doi{10.1093/bioinformatics/btz321}.
+%Type = Article
+\bibitem[{Lilliefors(1967)}]{lilliefors1967kolmogorov}
+\bibinfo{author}{Lilliefors, H.W.}, \bibinfo{year}{1967}.
+\newblock \bibinfo{title}{On the kolmogorov-smirnov test for normality with
+  mean and variance unknown}.
+\newblock \bibinfo{journal}{Journal of the American Statistical Association}
+  \bibinfo{volume}{62}, \bibinfo{pages}{399--402}.
+\newblock \DOIprefix\doi{10.1080/01621459.1967.10482916}.
+%Type = Article
+\bibitem[{Petropoulos et~al.(2016)Petropoulos, Edsg{\"a}rd, Reinius, Deng,
+  Panula, Codeluppi, Plaza~Reyes, Linnarsson, Sandberg and
+  Lanner}]{petropoulos2016embryos}
+\bibinfo{author}{Petropoulos, S.}, \bibinfo{author}{Edsg{\"a}rd, D.},
+  \bibinfo{author}{Reinius, B.}, \bibinfo{author}{Deng, Q.},
+  \bibinfo{author}{Panula, S.P.}, \bibinfo{author}{Codeluppi, S.},
+  \bibinfo{author}{Plaza~Reyes, A.}, \bibinfo{author}{Linnarsson, S.},
+  \bibinfo{author}{Sandberg, R.}, \bibinfo{author}{Lanner, F.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Single-cell {RNA-Seq} reveals lineage and {X}
+  chromosome dynamics in human preimplantation embryos}.
+\newblock \bibinfo{journal}{Cell} \bibinfo{volume}{165},
+  \bibinfo{pages}{1012--1026}.
+\newblock \DOIprefix\doi{10.1016/j.cell.2016.03.023}.
+%Type = Article
+\bibitem[{Rosenberg et~al.(2016)Rosenberg, Hoffman-Censits, Powles, van~der
+  Heijden, Balar, Necchi et~al.}]{rosenberg2016atezolizumab}
+\bibinfo{author}{Rosenberg, J.E.}, \bibinfo{author}{Hoffman-Censits, J.},
+  \bibinfo{author}{Powles, T.}, \bibinfo{author}{van~der Heijden, M.S.},
+  \bibinfo{author}{Balar, A.V.}, \bibinfo{author}{Necchi, A.}, et~al.,
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Atezolizumab in patients with locally advanced and
+  metastatic urothelial carcinoma who have progressed following treatment with
+  platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial}.
+\newblock \bibinfo{journal}{The Lancet} \bibinfo{volume}{387},
+  \bibinfo{pages}{1909--1920}.
+\newblock \DOIprefix\doi{10.1016/S0140-6736(16)00561-4}.
+%Type = Article
+\bibitem[{Rosenblatt(1952)}]{rosenblatt1952remarks}
+\bibinfo{author}{Rosenblatt, M.}, \bibinfo{year}{1952}.
+\newblock \bibinfo{title}{Remarks on a multivariate transformation}.
+\newblock \bibinfo{journal}{The Annals of Mathematical Statistics}
+  \bibinfo{volume}{23}, \bibinfo{pages}{470--472}.
+\newblock \DOIprefix\doi{10.1214/aoms/1177729394}.
+%Type = Article
+\bibitem[{Song et~al.(2024)Song, Wang, Yan, Liu, Sun, Li and
+  Li}]{song2024scdesign3}
+\bibinfo{author}{Song, D.}, \bibinfo{author}{Wang, Q.}, \bibinfo{author}{Yan,
+  G.}, \bibinfo{author}{Liu, T.}, \bibinfo{author}{Sun, T.},
+  \bibinfo{author}{Li, J.J.}, \bibinfo{author}{Li, W.V.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{scdesign3 generates realistic in silico data for
+  multimodal single-cell and spatial omics}.
+\newblock \bibinfo{journal}{Nature Biotechnology} \bibinfo{volume}{42},
+  \bibinfo{pages}{247--252}.
+\newblock \DOIprefix\doi{10.1038/s41587-023-01772-1}.
+%Type = Article
+\bibitem[{Sun et~al.(2021)Sun, Song, Li and Li}]{sun2021scdesign2}
+\bibinfo{author}{Sun, T.}, \bibinfo{author}{Song, D.}, \bibinfo{author}{Li,
+  W.V.}, \bibinfo{author}{Li, J.J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{scdesign2: a transparent simulator that generates
+  high-fidelity single-cell gene expression count data with gene correlations
+  captured}.
+\newblock \bibinfo{journal}{Genome Biology} \bibinfo{volume}{22},
+  \bibinfo{pages}{163}.
+\newblock \DOIprefix\doi{10.1186/s13059-021-02367-2}.
+%Type = Article
+\bibitem[{Sun et~al.(2023)Sun, Song, Li and Li}]{sun2023scdesign2correction}
+\bibinfo{author}{Sun, T.}, \bibinfo{author}{Song, D.}, \bibinfo{author}{Li,
+  W.V.}, \bibinfo{author}{Li, J.J.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Author correction: scdesign2: a transparent simulator
+  that generates high-fidelity single-cell gene expression count data with gene
+  correlations captured}.
+\newblock \bibinfo{journal}{Genome Biology} \bibinfo{volume}{24},
+  \bibinfo{pages}{32}.
+\newblock \DOIprefix\doi{10.1186/s13059-023-02884-2}.
+%Type = Book
+\bibitem[{Van~der Vaart(2000)}]{van2000asymptotic}
+\bibinfo{author}{Van~der Vaart, A.W.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Asymptotic statistics}. volume~\bibinfo{volume}{3}.
+\newblock \bibinfo{publisher}{Cambridge university press}.
+%Type = Article
+\bibitem[{Yuen et~al.(2020)Yuen, Liu, Gupta, Madireddi, Keerthivasan, Li,
+  Rishipathak, Williams, Kadel, Koeppen et~al.}]{yuen2020il8}
+\bibinfo{author}{Yuen, K.C.}, \bibinfo{author}{Liu, L.F.},
+  \bibinfo{author}{Gupta, V.}, \bibinfo{author}{Madireddi, S.},
+  \bibinfo{author}{Keerthivasan, S.}, \bibinfo{author}{Li, C.},
+  \bibinfo{author}{Rishipathak, D.}, \bibinfo{author}{Williams, P.},
+  \bibinfo{author}{Kadel, E.E.}, \bibinfo{author}{Koeppen, H.}, et~al.,
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{High systemic and tumor-associated {IL-8} correlates
+  with reduced clinical benefit of {PD-L1} blockade}.
+\newblock \bibinfo{journal}{Nature Medicine} \bibinfo{volume}{26},
+  \bibinfo{pages}{693--698}.
+\newblock \DOIprefix\doi{10.1038/s41591-020-0860-1}.
+
+\end{thebibliography}

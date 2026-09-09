@@ -1,0 +1,13 @@
+*.aux
+*.blg
+*.log
+*.out
+*.spl
+*.fdb_latexmk
+*.fls
+__pycache__/
+.DS_Store
+data/
+tmp/
+output/tex/
+output/public_release*/

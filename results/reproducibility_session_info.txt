@@ -1,0 +1,112 @@
+Reproducibility session information
+===================================
+
+Original record: 2026-06-09; revision environment checked: 2026-09-07
+Repository root: The_KS_Statistic
+
+Python environment
+------------------
+Python 3.12.4
+numpy 1.26.4
+scipy 1.13.1
+pandas 2.2.2
+pyswarms 1.3.0
+matplotlib 3.8.4
+
+Python scGTM source used by scripts/ks_scgtm_example.py
+------------------------------------------------------
+Repository: https://github.com/ElvisCuiHan/scGTM
+Commit: f26946dbb1531e273bed54f6eb6d51c6a2a5a408
+Commit date: 2023-09-26T09:30:18-07:00
+Diagnostic run: 10 demo genes, Poisson and NB margins, seed 20260609
+Generated scGTM figures: figs/scgtm_calibration_workflow.* and figs/scgtm_residual_calibration.*
+Generated summary figures: figs/article_calibration_map.* and figs/scdesign3_residual_diagnostics.*
+
+Python environment for the IMvigor210 analysis (2026-08-22)
+-----------------------------------------------------------
+Python 3.12.13
+numpy 2.3.5
+scipy 1.18.1
+pandas 2.2.3
+matplotlib 3.11.1
+Data: 10 per-patient integer UMI-count matrices from GEO GSE145281
+Trial context: IMvigor210, NCT02108652
+Diagnostic run: 10 prespecified genes, B = 199, seed 20260822
+Generated figure: figs/imvigor210_residual_diagnostics.*
+Source URLs, byte counts, and SHA-256 hashes: results/genentech_imvigor210/source_manifest.csv
+
+R environment
+-------------
+R version 4.5.3 (2026-03-11)
+Platform: aarch64-apple-darwin20
+Running under: macOS Tahoe 26.5
+
+R package versions used by scripts/ks_scdesign3_example.R
+---------------------------------------------------------
+scDesign3 1.8.0
+SingleCellExperiment 1.32.0
+gamlss.dist 6.1.1
+
+R sessionInfo summary
+---------------------
+Matrix products: default
+BLAS: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib; LAPACK version 3.12.1
+locale: C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+time zone: Asia/Shanghai
+attached base packages: stats, graphics, grDevices, utils, datasets, methods, base
+
+YL revision analysis environment (2026-09-07)
+-------------------------------------------
+Platform: macOS 26.5.2 arm64
+Python 3.12.4; NumPy 1.26.4; SciPy 1.13.1; pandas 2.2.2; Matplotlib 3.8.4
+R 4.5.3; scDesign3 1.8.0; SingleCellExperiment 1.32.0; gamlss.dist 6.1.1
+Pancreas: B=1999 for each of 10 genes, 4 workers, 19,990 refits, zero failures.
+Pancreas observed seed: 20260815 + 1009 * (original gene position - 1).
+Pancreas bootstrap seed: observed seed + 100000.
+IMvigor210 protocol: B=9999, complete 10-gene panel, shared and patient dispersions.
+IMvigor210 completion: 199,980 successful refits; zero failures across both models.
+IMvigor210 observed seed: 20260822 + 1009 * (panel position - 1).
+IMvigor210 bootstrap generator: NumPy SeedSequence([observed seed, 20260907]).
+OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1; four gene-level workers per job.
+Detailed stored-result verification is in results/yl_revision_verification.json.
+The earlier environment records above describe the earlier runs, not the new rerun.
+
+Conditional calibration correction (2026-09-08)
+----------------------------------------------
+R 4.5.3; scDesign3 1.8.0; mgcv 1.9-4; SingleCellExperiment 1.32.0;
+gamlss.dist 6.1.1; macOS Tahoe 26.5.2, aarch64.
+Four prespecified scenarios, 500 independent outer samples each, B=199.
+Three n=240 linear/periodic cases; one n=2087 cubic-regression-spline null.
+Actual scDesign3::fit_marginal NB fits; refit mean, size and spline smoothing.
+2,000 observed fits and 398,000 bootstrap refits; zero failures and warnings.
+Four outer-sample workers, one fitting core each; full wall time 3122.590 s.
+OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1.
+Observed seed = 20260908 + 100000 * scenario index + outer trial index.
+Bootstrap seed = observed seed + 10000000.
+Every saved outer record and all 16 summary rows independently checked.
+Full R session, per-worker elapsed sums, and records: results/conditional_calibration/.
+Old synthetic rejection counts preserved; only Wald intervals changed to Wilson.
+New conditional rejection-rate intervals use Clopper-Pearson, M=500.
+
+Hardware and runtime reporting update (2026-09-09)
+-------------------------------------------------
+Verified host: Apple M1 Max, MacBookPro18,2; 10 physical/logical CPU cores
+(8 performance, 2 efficiency); 68719476736 bytes = 64 GiB installed memory.
+macOS 26.5.2, build 25F84. Inventory read with sysctl and sw_vers after the
+conditional run; no serial number collected. CPU calculations, no GPU fits.
+Conditional per-task timers exclude the record write; overall 3122.590 s
+includes orchestration and output, excludes initial package loading.
+Spline task median 8.122 s, range 7.253-507.031 s; delay cause not recorded.
+Summed concurrent task times are neither total wall time nor process CPU time.
+Pancreas timers include observed fitting and RDS output. PBMC timers exclude
+observed fitting, loading, QC and serialization. No overall wall times for
+these two real-data jobs were retained; none have been reconstructed.
+The hardware inventory cannot reconstruct historical load or CPU affinity.
+Table 10 remeasured: five sequential repeats after one n=10000 warm-up,
+G=10, n=1000/10000/100000/1000000, single Python worker and BLAS/OMP threads=1.
+Python 3.12.4; NumPy 1.26.4; SciPy 1.13.1; pandas 2.2.2.
+Reported phase durations are medians; the 199-refit serial total is projected.
+Raw timing repetitions, ranges, source hash and runtime metadata are in
+results/computational_reporting/. Older combined-file timings are preserved.
+Peak RSS, CPU time, GPU performance and parallel speedup were not measured.

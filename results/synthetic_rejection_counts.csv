@@ -1,0 +1,28 @@
+experiment,scenario,n,method,trials,rejections,rate,lower,upper,interval
+fitted_nb_scale,250,250,known_margin,400,21,0.0525,0.034591528357920405,0.07892197507127496,Wilson
+fitted_nb_scale,250,250,naive_ks,400,0,0.0,8.673617379884035e-19,0.009512294334296508,Wilson
+fitted_nb_scale,250,250,fixed_parameter_bootstrap,400,0,0.0,8.673617379884035e-19,0.009512294334296508,Wilson
+fitted_nb_scale,250,250,refitted_bootstrap,400,25,0.0625,0.04268914141220244,0.09063411613030699,Wilson
+fitted_nb_scale,250,250,zero_inflated_power,200,191,0.955,0.9167032959981803,0.976147456998507,Wilson
+fitted_nb_scale,1000,1000,known_margin,250,14,0.056,0.03364764921901088,0.0917907207329439,Wilson
+fitted_nb_scale,1000,1000,naive_ks,250,0,0.0,8.673617379884035e-19,0.015133299495444574,Wilson
+fitted_nb_scale,1000,1000,fixed_parameter_bootstrap,250,0,0.0,8.673617379884035e-19,0.015133299495444574,Wilson
+fitted_nb_scale,1000,1000,refitted_bootstrap,250,10,0.04,0.021869911954542545,0.07205272358126646,Wilson
+fitted_nb_scale,1000,1000,zero_inflated_power,125,125,1.0,0.9701846062916737,1.0,Wilson
+fitted_nb_scale,10000,10000,known_margin,300,14,0.04666666666666667,0.027998933682334012,0.07679736022792105,Wilson
+fitted_nb_scale,10000,10000,naive_ks,300,0,0.0,8.673617379884035e-19,0.012642971224546034,Wilson
+fitted_nb_scale,10000,10000,fixed_parameter_bootstrap,300,1,0.0033333333333333335,0.0005886577218511581,0.018636693694531237,Wilson
+fitted_nb_scale,10000,10000,refitted_bootstrap,300,12,0.04,0.023027321487942308,0.06860421203864003,Wilson
+fitted_nb_scale,10000,10000,zero_inflated_power,100,100,1.0,0.9630065017930143,1.0,Wilson
+fitted_nb_margin,Known NB margin,120,brownian_cutoff,1000,40,0.04,0.02951097368545276,0.05400964412125796,Wilson
+fitted_nb_margin,Fitted NB margin,120,brownian_cutoff,1000,0,0.0,2.168404344971009e-19,0.0038267584855551234,Wilson
+fitted_nb_margin,Fitted NB margin,120,refit_bootstrap,1000,51,0.051,0.03900094277526684,0.06643548634476165,Wilson
+copula_blind_spot,same copula (rho=0.65),240,gene1_marginal_ks,1000,43,0.043,0.03207865341171336,0.057419003844084014,Wilson
+copula_blind_spot,same copula (rho=0.65),240,gene2_marginal_ks,1000,52,0.052,0.03987303628377742,0.06755573931927998,Wilson
+copula_blind_spot,same copula (rho=0.65),240,residual_correlation,1000,58,0.058,0.04513327823499824,0.0742495762662325,Wilson
+copula_blind_spot,moderate wrong copula (rho=0.50),240,gene1_marginal_ks,1000,54,0.054,0.04162131372306273,0.06979215484605245,Wilson
+copula_blind_spot,moderate wrong copula (rho=0.50),240,gene2_marginal_ks,1000,50,0.05,0.03813026239274882,0.06531382024425081,Wilson
+copula_blind_spot,moderate wrong copula (rho=0.50),240,residual_correlation,1000,663,0.663,0.6331289213315938,0.6916235554021153,Wilson
+copula_blind_spot,rho=0 independence copula,240,gene1_marginal_ks,1000,39,0.039,0.028658960904180485,0.052869310419501346,Wilson
+copula_blind_spot,rho=0 independence copula,240,gene2_marginal_ks,1000,49,0.049,0.037261034647360615,0.06419070150661013,Wilson
+copula_blind_spot,rho=0 independence copula,240,residual_correlation,1000,1000,1.0,0.996173241514445,1.0,Wilson

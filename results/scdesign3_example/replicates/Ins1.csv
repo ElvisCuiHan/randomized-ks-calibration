@@ -1,0 +1,2 @@
+"gene","cells","observed_ks_D","naive_uniform_p","refitted_bootstrap_p","exceedances","tail_mc_lower","tail_mc_upper","bootstrap_q95","bootstrap_replicates","failed_fits","elapsed_seconds","observed_seed"
+"Ins1",2087,0.0223543004205744,0.247937117407511,0.152,303,0.136125004323539,0.16805589077242,0.0263194950335676,1999,0,246.508,20267878

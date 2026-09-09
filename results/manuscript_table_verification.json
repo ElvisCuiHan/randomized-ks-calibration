@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-09",
+  "tables_checked": 10,
+  "gene_rows_checked": 50,
+  "simulation_rows_checked": 26,
+  "synthetic_intervals_checked": 27,
+  "runtime_rows_checked": 11,
+  "lightweight_repetitions_checked": 20,
+  "status": "passed",
+  "rounding": "Verified against each displayed decimal precision"
+}

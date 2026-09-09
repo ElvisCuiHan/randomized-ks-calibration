@@ -1,0 +1,2 @@
+genes,median_poisson_ks_D,median_nb_ks_D,genes_with_lower_nb_ks_D,median_ks_D_drop,median_quartile_ks_drop,median_nll_drop
+10,0.2780680293579916,0.03537056368950925,10,0.23027594498179416,0.11199999999999997,1176.5026635588065

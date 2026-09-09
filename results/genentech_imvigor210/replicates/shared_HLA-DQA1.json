@@ -1,0 +1,23 @@
+{
+  "gene": "HLA-DQA1",
+  "dispersion_model": "shared",
+  "cells": 24134,
+  "detection_rate": 0.026145686583243555,
+  "fitted_size": 0.14059316935213237,
+  "fitted_size_min": 0.14059316935213237,
+  "fitted_size_max": 0.14059316935213237,
+  "mean_fitted_log_score": -0.11951558228878818,
+  "observed_stratified_ks": 1.1396925537647646,
+  "fixed_parameter_cutoff_95": 1.7206589198746027,
+  "refitted_cutoff_95": 1.7085494651312205,
+  "fixed_parameter_p": 0.7996,
+  "refitted_p": 0.7785,
+  "fixed_exceedances": 7995,
+  "refitted_exceedances": 7784,
+  "refitted_tail_mc_lower": 0.7702077824593021,
+  "refitted_tail_mc_upper": 0.7865854102251728,
+  "bootstrap_replicates": 9999,
+  "failed_fits": 0,
+  "observed_seed": 20265867,
+  "elapsed_seconds": 123.53215883299708
+}
