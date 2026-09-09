@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
+  "local_archive_version": "1.0.0",
   "date": "2026-09-09",
   "repository": "https://github.com/ElvisCuiHan/randomized-ks-calibration",
-  "tag": "v1.0.0",
+  "github_release_published": false,
   "scope": "Public manuscript, supplement, code and numerical evidence; no review correspondence."
 }

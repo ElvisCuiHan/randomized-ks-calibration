@@ -11,7 +11,7 @@ The manuscript identifies its authors and cites the original scientific
 sources. R, scDesign3, scGTM and the Python dependencies retain their own
 licenses. Public datasets remain subject to their original repositories'
 terms and attribution requirements. Raw GEO count-matrix downloads are
-not included in this release.
+not included in this repository.
 
-The public release contains research and reproducibility materials, not
+The public repository contains research and reproducibility materials, not
 confidential editorial correspondence, reviewer reports or internal audits.

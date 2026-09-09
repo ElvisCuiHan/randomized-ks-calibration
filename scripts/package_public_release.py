@@ -86,9 +86,9 @@ def main():
     generated = {
         ".gitignore": "*.aux\n*.blg\n*.log\n*.out\n*.spl\n*.fdb_latexmk\n*.fls\n__pycache__/\n.DS_Store\ndata/\ntmp/\noutput/tex/\noutput/public_release*/\n",
         "reproducibility/release.json": json.dumps({
-            "version": VERSION, "date": "2026-09-09",
+            "local_archive_version": VERSION, "date": "2026-09-09",
             "repository": "https://github.com/ElvisCuiHan/randomized-ks-calibration",
-            "tag": f"v{VERSION}",
+            "github_release_published": False,
             "scope": "Public manuscript, supplement, code and numerical evidence; no review correspondence.",
         }, indent=2) + "\n",
     }

@@ -7,12 +7,12 @@
 Research companion to *Randomized Kolmogorov-Smirnov Calibration for Fitted
 Discrete Single-Cell Residual Diagnostics*. Code, numerical evidence, figures,
 and editable manuscript sources. The manuscript is under revision; this
-release is not a notice of journal acceptance.
+repository is not a notice of journal acceptance.
 
 [Manuscript](output/pdf/sibs_major_revision_manuscript.pdf) |
 [Supplement](output/pdf/sibs_major_revision_supplement.pdf) |
-[Versioned release](https://github.com/ElvisCuiHan/randomized-ks-calibration/releases/tag/v1.0.0) |
-[Download ZIP](https://github.com/ElvisCuiHan/randomized-ks-calibration/releases/download/v1.0.0/randomized-ks-calibration-v1.0.0.zip)
+[Numerical results](results/) |
+[Reproduction guide](#start-here)
 
 ---
 
@@ -58,12 +58,12 @@ Refits are computational operations, not additional observed cells.
 
 ## Start Here
 
-Use the release ZIP for a versioned snapshot, or clone the repository:
+Clone the public repository and record the commit used for your analysis:
 
 ```bash
 git clone https://github.com/ElvisCuiHan/randomized-ks-calibration.git
 cd randomized-ks-calibration
-git checkout v1.0.0
+git rev-parse HEAD
 ```
 
 Run commands from the repository root. Start with the stored results; these
@@ -110,7 +110,7 @@ CONDITIONAL_OUTPUT=results/conditional_calibration_rerun CONDITIONAL_MC=500 COND
 
 The conditional script resumes existing records only when their protocol
 matches. The fresh output directory above performs an independent rerun while
-preserving the release evidence. The paper's saved records remain in
+preserving the stored evidence. The paper's saved records remain in
 `results/conditional_calibration/`; `scripts/write_conditional_tables.py`
 generates table fragments from that canonical directory.
 
@@ -202,7 +202,7 @@ conditional experiments use Clopper-Pearson intervals.
 
 `scripts/ks_crossing_calculations.py` and
 `scripts/ks_composite_simulation.py` provide the additional crossing and
-composite-null calculations. The public release includes a per-file SHA-256
+composite-null calculations. The public repository includes a per-file SHA-256
 manifest in `reproducibility/sha256.json`.
 
 ## Environment and Runtime
@@ -257,7 +257,7 @@ not been numerically benchmarked against bootstrap computation.
 
 ## Citation and Reuse
 
-Please cite the manuscript and identify the release used; publication
+Please cite the manuscript and identify the repository commit used; publication
 metadata will be updated after an editorial decision. Machine-readable
 metadata are provided in [CITATION.cff](CITATION.cff).
 
@@ -266,7 +266,7 @@ metadata are provided in [CITATION.cff](CITATION.cff).
   author = {Cui, Elvis Han and Li, Yihao and Liu, Zhuang},
   title = {Randomized Kolmogorov-Smirnov Calibration for Fitted Discrete Single-Cell Residual Diagnostics},
   year = {2026},
-  howpublished = {Research manuscript and reproducibility materials, version 1.0.0},
+  howpublished = {Research manuscript and reproducibility materials},
   url = {https://github.com/ElvisCuiHan/randomized-ks-calibration}
 }
 ```
@@ -291,7 +291,7 @@ python3 scripts/package_revision.py
 
 Confidential editorial correspondence, reviewer reports, marked changes,
 internal audits and original submission history are excluded from the
-public repository and release. The public archive and the journal
-submission bundle are deliberately different artifacts.
+public repository. The separate journal submission bundle is not published
+on GitHub. No GitHub Release or DOI is claimed for this repository.
 
 </details>
